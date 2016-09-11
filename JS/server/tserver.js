@@ -3,11 +3,11 @@ var express = require('express')
   , app = express()
   , server = http.createServer(app);
 
-tserver.get('/', function (req, res) {
+app.get('/', function (req, res) {
   res.send('Hello /');
 });
 
-tserver.get('/world.html', function (req, res) {
+app.get('/world.html', function (req, res) {
   res.send('Hello World');
 });
 
