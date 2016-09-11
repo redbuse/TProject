@@ -2,9 +2,11 @@ var express = require('express');
 var path = require('path');
 
 var app = express();
-
+var os = require('os');
 app.set("view engine", 'ejs');
 
+
+console.log(os);
 
 app.use(express.static(path.join(__dirname , '/public')));
 

@@ -4,7 +4,6 @@ var mysql = require('mysql');
 
 var route = express.Router();
 
-
 var connection = mysql.createConnection({
   host:"localhost",
   port:8000,
