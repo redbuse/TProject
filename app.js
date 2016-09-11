@@ -6,7 +6,7 @@ var os = require('os');
 app.set("view engine", 'ejs');
 
 
-console.log(os);
+console.log(os.platform());
 
 app.use(express.static(path.join(__dirname , '/public')));
 
