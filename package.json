@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/redbuse/TProject/issues"
   },
-  "homepage": "https://github.com/redbuse/TProject#readme"
+  "homepage": "https://github.com/redbuse/TProject#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "jade": "^1.11.0",
+    "underscore": "^1.8.3"
+  }
 }
