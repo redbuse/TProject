@@ -22,9 +22,9 @@ app.listen(8000,function()
 
 app.get('/data/2.5/weather',function(req,res){
 
-  var id = req.appid;
-  var lat = req.lat;
-  var lon = req.lon;
+  var id = req.query.appid;
+  var lat = req.query.lat;
+  var lon = req.query.lon;
 
   console.log('id :' +id +',' +'lat :' + lat + ',' + 'lon :'+lon);
 
