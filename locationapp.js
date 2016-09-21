@@ -28,6 +28,17 @@ app.get('/data/2.5/weather',function(req,res){
 
   console.log('id :' +id +',' +'lat :' + lat + ',' + 'lon :'+lon);
 
-  res.send({temp:'273'});
+  res.send(
+  {main : {
+  		"temp" : 273.57,
+  		"pressure" : 1026,
+  		"humidity" : 24,
+  		"temp_min" : 272.15,
+  		"temp_max" : 274.15
+  	}}
+
+
+
+  );
 
 });
