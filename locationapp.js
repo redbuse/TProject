@@ -28,6 +28,6 @@ app.get('/data/2.5/weather',function(req,res){
 
   console.log('id :' +id +',' +'lat :' + lat + ',' + 'lon :'+lon);
 
-  res.send('237');
+  res.send({temp:'273'});
 
 });
